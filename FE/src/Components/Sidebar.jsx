@@ -5,7 +5,7 @@ import { useState } from 'react';
 const Sidebar = () => {
   const [clicked, setClicked] =useState(false)
 
-  const handelMenu=(e)=>{
+  const handelMenu=()=>{
     setClicked(!clicked)
   }
   console.log(clicked);
